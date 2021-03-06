@@ -1,0 +1,46 @@
+/* .container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) 
+}
+
+.card {
+	margin-bottom: 10px;
+	padding: 30px !important;
+	float: none;
+	margin: 0 auto;
+	border-radius: 5px !important;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+}
+
+.top {
+	text-align: center;
+}
+
+.logo-image {
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+/* Form 
+#floatingInput {
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border-radius: inherit;
+	border-color: transparent;
+	border-bottom: 1px solid #ced4da;
+}
+
+.form-control {
+	margin-top: 50px;
+	border-radius: none;
+}
+
+.form-floating {
+	color: grey;
+	font-size: 15px;
+} */

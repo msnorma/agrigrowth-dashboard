@@ -1,0 +1,36 @@
+.sidenav {
+  height: 100vh;
+  width: 250px;
+  float:left;
+  background-color: #182c2b;
+}
+
+.sidenav__list {
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+.sidenav__list a {
+  color: #ddd;
+  text-decoration: none;
+	margin-top: 85px;
+	list-style-type: none;
+}
+
+.sidenav__list-item {
+	padding: 20px 20px 20px 40px;
+  color: #ddd;
+  font-weight: 600;
+}
+
+.sidenav__list-item:hover {
+  font-weight: 450;
+	background-color: rgba(41, 41, 41, 0.5);
+	cursor: pointer;
+}
+
+.button-position {
+  bottom: 0;
+  margin-bottom: 60px;
+  position: absolute;
+}

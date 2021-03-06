@@ -1,0 +1,31 @@
+/* body {
+  background: linear-gradient(90deg, rgba(220,231,233,1) 0%, rgba(192,210,212,1) 35%, rgba(179,200,201,1) 100%);
+} */
+.container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) 
+}
+
+.card {
+	margin-bottom: 10px;
+	padding: 30px !important;
+	float: none;
+	margin: 0 auto;
+	border: none;
+	/* border-radius: 5px !important; */
+	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important; */
+}
+
+.bottom-content {
+	color: #045449;
+	text-align: center;
+}
+
+.bottom-icons {
+	margin-bottom: 10px;
+	width: 30px;
+}
