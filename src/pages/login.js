@@ -83,7 +83,7 @@ export default function Login() {
 									<label for="floatingInput">Password</label>
 								</div>
 								<div style={{textAlign: 'center', marginTop: '35px'}}>
-									<a onClick={signInGoogleAuthentication}>
+									<a href={signInGoogleAuthentication}>
 										<img 
 											src={googleButton}
 											alt="sign in with google"

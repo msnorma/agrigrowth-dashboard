@@ -46,7 +46,7 @@ function Device() {
       console.log("data: " + formData);
   }
 
-  const handleShow = () => setShow(true);
+  // const handleShow = () => setShow(true);
 
   return(
     <main className="pages-container">

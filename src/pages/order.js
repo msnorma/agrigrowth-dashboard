@@ -5,9 +5,9 @@ import boxImage from "../images/Box2.png";
 
 function Order() {
 
-  const handleForm = () => {
+  // const handleForm = () => {
 
-  }
+  // }
 
   return(
     <main className="pages-container">
