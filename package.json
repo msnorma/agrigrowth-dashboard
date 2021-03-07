@@ -42,5 +42,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://camssecure.co.za/api/v1/change/devicename"
+  "proxy": "https://camssecure.co.za/api/v1/change/devicename",
+  "homepage": "."
 }
