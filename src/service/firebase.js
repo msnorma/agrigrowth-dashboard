@@ -22,7 +22,7 @@ const googleProvider = new firebase.auth.GoogleAuthProvider()
 
 //	Sigining in with google
 export const signInGoogleAuthentication = () => {
-  auth.signInWithPopup.bind(googleProvider).then((res) => {
+  auth.signInWithPopup(googleProvider).then((res) => {
     console.log(res.user)
   }).catch((error) => {
     console.log(error.message)
