@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { Modal } from 'react-bootstrap';
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { db } from "../service/firebase";
 import plantImage from "../images/plant.png";
 import "../styles/common.css";
 import "../styles/device.css";
+
+toast.configure()
 
 function Device() {
 
   const [stats,setStats]=useState([]);
   const [formData, setFormData]=useState("");
   const [isLoading, setIsLoading]=useState(false);
-  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
 
   useEffect(() => {
     fetchStats();
@@ -42,11 +43,12 @@ function Device() {
       .catch(error => {
         console.error("There was an unexpected error: " + error);
       })
-      setShow(true);
-      console.log("data: " + formData);
+      notify();
   }
 
-  // const handleShow = () => setShow(true);
+  const notify = ()=>{
+    toast.success('Device name change, will update after 2 minutes', {autoClose:3000})
+  }
 
   return(
     <main className="pages-container">
@@ -69,7 +71,7 @@ function Device() {
                 />
               </div>
               <div style={{textAlign: 'center'}}>
-                <button className="button-submit" type="submit">Submit</button>
+                <button className="button-submit" type="submit" disabled={!formData}>Submit</button>
               </div>
             </form>
           </div>
@@ -85,15 +87,6 @@ function Device() {
                     </div>
               )
         })}
-        </div>
-      </div>
-      <div className="row">
-        <div className="modal" tabindex="-1" role="dialog">
-          <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-            </Modal.Header>
-            <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-          </Modal>
         </div>
       </div>
     </main>

@@ -21,7 +21,6 @@ function Sidebar() {
             return (
               <li key={index} className="sidenav__list-item">
                 <Link to={item.route}>
-                  {/* {item.icon} */}
                   <span>{item.name}</span>
                 </Link>
               </li>

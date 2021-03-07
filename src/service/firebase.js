@@ -42,7 +42,6 @@ export const signInGoogleAuthentication = () => {
 // 	Loging out and redirect to login page
 export const logOut = () => {
   auth.signOut().then(()=> {
-    
     console.log('logged out')
   }).catch((error) => {
     console.log(error.message)
@@ -50,5 +49,3 @@ export const logOut = () => {
 }
 
 export const db = firebase.firestore();
-
-// export{db};
