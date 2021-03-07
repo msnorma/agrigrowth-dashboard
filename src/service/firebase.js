@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 const firebaseConfig = {
-	apiKey: "AIzaSyBwazMOv2MyiI6rlG6Lq34RJJ82PXilw2Ux",
+	apiKey: "AIzaSyBwazMOv2MyiI6rlG6Lq34RJJ82PXilw2U",
 	authDomain: process.env.REACT_APP_AUTH_DOMAIN,
 	databaseURL: process.env.REACT_APP_DATABASE_URL,
 	projectId: process.env.REACT_APP_PROJECT_ID,

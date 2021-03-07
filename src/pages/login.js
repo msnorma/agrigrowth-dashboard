@@ -83,13 +83,14 @@ export default function Login() {
 									<label for="floatingInput">Password</label>
 								</div>
 								<div style={{textAlign: 'center', marginTop: '35px'}}>
-									<a href={signInGoogleAuthentication}>
+									<button style={{border: 'none', backgroundColor: 'transparent'}}>
 										<img 
 											src={googleButton}
 											alt="sign in with google"
 											style={{width:'80%', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'}}
+											onClick={signInGoogleAuthentication}
 										/>
-									</a>
+									</button>
 								</div>
 								<div className="button-2-position">
 									{/* <Link to="/dashboard">
