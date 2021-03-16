@@ -5,14 +5,14 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 const firebaseConfig = {
-	apiKey: "AIzaSyBwazMOv2MyiI6rlG6Lq34RJJ82PXilw2U",
-	authDomain: "agrigrowth-7899e.firebaseapp.com",
-	databaseURL: "https://agrigrowth-7899e-default-rtdb.firebaseio.com",
-	projectId: "agrigrowth-7899e",
-	storageBucket: "agrigrowth-7899e.appspot.com",
-	messagingSenderId: "363674113106",
-	appId: "1:363674113106:web:a00bd7cd706d553f5a7b8b",
-	measurementId: "G-V0Y3BLTYX7"
+	apiKey: "",
+	authDomain: "",
+	databaseURL: "",
+	projectId: "",
+	storageBucket: "",
+	messagingSenderId: "",
+	appId: "",
+	measurementId: ""
 };
 // firebase.analytics();
 
